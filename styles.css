@@ -1,18 +1,124 @@
+/* CSS BY GRACIE JACKSON GIT 337*/
+
 /* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
-
-
-/* CSS BY NAME */
-
-
-
 /* CSS REST */
+html {
+    background-color: var(--lavender);
+    
+}
+
+h1, h2{
+    font-family: 'Kavoon';
+}
+
+h2{
+    color: var(--white);
+    font-size: 2em;
+}
+
+/*Services white background sections*/
+
+#personal, #career, #relationship, #community, #sessions, #interactive, #flex-learning {
+    border: 2px solid var(--white);
+    padding: 20px;
+    border-radius: 5%;
+    background-color: var(--white);
+    margin: 15px auto;
+}
+#personal > p, #personal > img, #personal > h4{
+    background-color: var(--white);
+}
+
+#career > p, #career > img, #career > h4{
+    background-color: var(--white);
+}
+
+#relationship > p, #relationship > img, #relationship > h4{
+    background-color: var(--white);
+}
+
+#community > p, #community > img, #community > h4{
+    background-color: var(--white);
+}
+
+#sessions > p, #sessions > img, #sessions > h4{
+    background-color: var(--white);
+}
+
+#interactive > p, #interactive > img, #interactive > h4{
+    background-color: var(--white);
+}
+
+#flex-learning > p, #flex-learning > img, #flex-learning > h4{
+    background-color: var(--white);
+}
+
+ /**/
 
 
+nav h2{
+    font-size: 1.5em;
+}
+
+h3{
+    color: var(--yellow);
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+h4{
+    color: var(--lavender);
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+#first-step p{
+    color: var(--white);
+}
+
+#first-step a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+footer{
+    color: var(--white);
+}
+
+footer a{
+    color: var(--white);
+}
+
+* {
+    background-color: var(--purple);
+    font-family: 'Inter';
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    color: var(--purple);
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-title{
+    color: var(--white);
+    text-align: center;
+}
 
 /* ROOT VARIABLES */
-:{
+:root {
     --teal: #4ca7c0;
     --purple: #484fb7;
     --lavender: #6b8fe7;
@@ -26,3 +132,9 @@
 
 
 /* GLOBAL STYLES */
+
+* {
+    max-width: 450px;
+
+}
+
