@@ -1,0 +1,28 @@
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+
+
+/* CSS BY NAME */
+
+
+
+/* CSS REST */
+
+
+
+/* ROOT VARIABLES */
+:{
+    --teal: #4ca7c0;
+    --purple: #484fb7;
+    --lavender: #6b8fe7;
+    --yellow: #e9bb57;
+    --pink: #d9526f;
+    --dk-gray: #1e1e1e;
+    --white: #ffffff;
+
+    --fonts: 'Kavoon', 'Inter', sans-serif;
+}
+
+
+/* GLOBAL STYLES */
