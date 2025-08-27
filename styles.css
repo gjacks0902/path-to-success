@@ -11,7 +11,7 @@ html {
 
 .top-title{
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
@@ -27,6 +27,57 @@ h2{
     color: var(--white);
     font-size: 2em;
 }
+
+/*Menu section*/
+.menu{
+    width: 490px;
+}
+
+#unordered-menu{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--yellow);
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 25px;
+}
+.menu h2{
+    text-align: center;
+    color: var(--dk-gray);
+    font-family: 'Inter';
+    font-style: italic;
+    background-color: var(--yellow);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#unordered-menu a{
+    text-decoration: none;
+    color: var(--purple);
+    background-color: var(--white);
+}
+
+ #unordered-menu li{
+    background-color: var(--white);
+    border: 2px solid var(--white);
+    width: 400px;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+ }
+
+ #menu-1, #menu-2, #menu-3, #menu-4 {
+    filter:brightness(120%);
+    text-rendering: optimizeLegibility;
+ }
+
+ #menu-1:hover, #menu-2:hover, #menu-3:hover, #menu-4:hover {
+    filter:brightness(160%);
+ }
 
 /*Services section with white background*/
 
