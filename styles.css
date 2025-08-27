@@ -6,7 +6,17 @@
 /* CSS REST */
 html {
     background-color: var(--lavender);
-    
+}
+
+
+.top-title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
 }
 
 h1, h2{
@@ -18,7 +28,11 @@ h2{
     font-size: 2em;
 }
 
-/*Services white background sections*/
+/*Services section with white background*/
+
+#services, .group-services, .workshops, .online{
+    padding: 20px;
+}
 
 #personal, #career, #relationship, #community, #sessions, #interactive, #flex-learning {
     border: 2px solid var(--white);
@@ -26,6 +40,7 @@ h2{
     border-radius: 5%;
     background-color: var(--white);
     margin: 15px auto;
+    line-height: 1.6;
 }
 #personal > p, #personal > img, #personal > h4{
     background-color: var(--white);
@@ -55,7 +70,7 @@ h2{
     background-color: var(--white);
 }
 
- /**/
+ /*Services end*/
 
 
 nav h2{
@@ -74,30 +89,134 @@ h4{
     font-weight: bold;
 }
 
-#first-step p{
+/* Why choose us grid layout */
+
+#why-choose-us{
+    background-color: var(--pink);
+    padding-bottom: 10px;
+}
+
+#why-choose-us h2{
+    background-color: var(--pink);
+    padding: 10px;
+}
+
+#unordered-list{
+    display: grid;
+    align-content: stretch;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    list-style-type: none;
+    gap: 25px;
+    justify-content: space-evenly;
+    background-color: var(--pink);
+    padding: 15px;
+}
+
+#unordered-list li{
+    margin: 0%;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1.5em;
+    font-size: 1.15em;
+}
+#item-1 {
+    background-color: var(--teal); 
+}
+
+#item-2{
+    background-color: var(--lavender);
+}
+
+#item-3{
+    background-color: var(--yellow);
+}
+
+#item-4{
+    background-color: var(--white);
+}
+
+/**/
+
+/*Tables*/
+
+#pricing{
+    padding-top: 10px;
+    padding: 15px;
+}
+
+#pricing h3{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 15px;
+    margin: 0;
+    border: 1.5px solid var(--yellow);
+}
+
+table th{
+    background-color: var(--yellow);
+    padding: 16px;
+    text-transform: uppercase;
+}
+
+td{
+    background-color: var(--white);
+}
+
+/**/
+
+/*First step bottom section*/
+
+#first-step p, #first-step h2{
     color: var(--white);
+    background-color: var(--pink);
+    padding: 10px;
+
 }
 
 #first-step a{
-    color: var(--white);
+    color: var(--dk-gray);
     text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 350px;
+    height: 25px;
+    background: var(--white);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px var(--dk-gray);
 }
 
 footer{
     color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    height: 120px;
+    width: 360px;
+    font-size: 0.75em;
+    text-align: center;
 }
 
 footer a{
     color: var(--white);
+
 }
 
 * {
     background-color: var(--purple);
     font-family: 'Inter';
     margin: auto;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
 }
 
 nav ul {
@@ -135,6 +254,5 @@ header{
 
 * {
     max-width: 450px;
-
 }
 
